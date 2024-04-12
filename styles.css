@@ -140,6 +140,32 @@ button {
 }
 
 
+.carrier .container .item .content .buttons{
+    display: grid;
+    height: 40px;
+    gap: 5px;
+    margin-top: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -267,12 +293,7 @@ nav ul li a {
 
 
 
-.carrier .container .item .content .buttons{
-    display: grid;
-    height: 40px;
-    gap: 5px;
-    margin-top: 19px;
-}
+
 
 .carrier .container .item .content button{
     border: none;
