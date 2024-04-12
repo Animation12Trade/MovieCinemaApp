@@ -31,7 +31,7 @@ This is a project that enables users to search and discover what they wanted thr
 
 3. Use the search bar to search for movies by title.
 
-4. Click "Add Movie" to add a new movie to the database.
+4. Click (Add Movie) to add a new movie to the database.
 
 5. Scroll down "Discover Movies" to see a list of available movies.
 
