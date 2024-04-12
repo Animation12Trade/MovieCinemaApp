@@ -156,7 +156,11 @@ button {
 
 
 
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 
 
@@ -204,11 +208,6 @@ button {
 
 
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
 
 
@@ -228,10 +227,6 @@ button {
 
 
 
-nav ul li a {
-    color:aqua;
-    text-decoration: none;
-}
 
 
 
@@ -241,10 +236,9 @@ nav ul li a {
 
 
 
-#movieResults {
-    display: inline-block;
-    margin-right: 30px;
-}
+
+
+
 
 
 
