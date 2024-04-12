@@ -38,6 +38,11 @@ This is a project that enables users to search and discover what they wanted thr
 6. Click on a movie to view more details.
 
 
+## Live Link
+
+[Git](gh-pages link)
+
+
 ## Technologies
 
 1. JavaScript

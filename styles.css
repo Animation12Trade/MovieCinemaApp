@@ -123,10 +123,21 @@ footer {
 
 
 
+.Description{
+    margin-bottom: 20px;
+    align-items: baseline;
+    display: flex;
+}
 
 
-
-
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 
 
@@ -199,14 +210,7 @@ form {
     align-items: center;
 }
 
-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
+
 
 .toggle-button {
     display: none; 
@@ -230,11 +234,7 @@ nav ul li a {
 .container{
     align-items: baseline;
 }
-.Description{
-    margin-bottom: 20px;
-    align-items: baseline;
-    display: flex;
-}
+
 
 
 #searchMovie{
@@ -257,9 +257,7 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
- #welcome{
-   color: #ff4500;
-}
+
 
 
 

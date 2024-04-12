@@ -2,6 +2,8 @@
 const apiKey = '6b4bd767e9913e24fbfb97704b64c5b0';
 const baseURL = 'https://api.themoviedb.org/3';
 
+
+
 function fetchMovies(searchQuery = '') {
     let url = `${baseURL}/discover/movie?api_key=${apiKey}`;
     if (searchQuery !== '') {
