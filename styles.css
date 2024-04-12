@@ -156,11 +156,6 @@ button {
 
 
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
 
 
@@ -187,16 +182,6 @@ button {
 
 
 
-/* .header{
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    color: blue;
-    height: 50px;
-    position: relative;
-    z-index: 100;
-}
 
 
 
@@ -260,48 +245,8 @@ button {
 
 
 
-.carrier .container .item .content button{
-    border: none;
-    background-color: #fff;
-    font-family: Poppins;
-    font-weight: 500;
-}
-
-
-.arrows button{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: bisque;
-    color: aqua;
-    font-weight: bold; 
-}
-
-.arrows button:hover{
-    background-color: aliceblue;
-    color: lightslategray;
-}
-
-.carrier .container .item:nth-child(1){
-    z-index: 1;
-}
-.carrier .container .item:nth-child(1) #author,
-.carrier .container .item:nth-child(1) #title,
-.carrier .container .item:nth-child(1) #TopicOfDiscussion,
-.carrier .container .item:nth-child(1) .buttons{
-    transform: translateY(50px);
-    filter: blur(10px);
-    opacity: 0;
-    animation: showCont 0.5s 1s linear 1 forwards;
-}
-
-@keyframes showContent{
-    to{
-        opacity: 1;
-        filter: blur(0);
-        transform: translateY(0);
-    }
-}
+
+
 
 
 
