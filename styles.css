@@ -1,0 +1,327 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Search{
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    margin-right: auto;
+}
+
+header img {
+    max-width: 100px;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.submit {
+    text-align: center;
+}
+
+
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+.content {
+    margin-top: 20px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#welcome{
+    font-style: italic;
+    font-weight: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    color: blue;
+    height: 50px;
+    position: relative;
+    z-index: 100;
+}
+
+
+/#movieList ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+#movieList li{
+    margin-right: 20px;
+}
+
+
+
+#movieList a:hover {
+    color: #ff4500; 
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.submit{
+    height: 100vh;
+    background-color: purple;
+}
+
+form {
+    margin-top: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    padding: 25px;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toggle-button {
+    display: none; 
+}
+
+.toggle-label:hover {
+    background-color: #0056b3;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li a {
+    color:aqua;
+    text-decoration: none;
+}
+
+
+
+.container{
+    align-items: baseline;
+}
+.Description{
+    margin-bottom: 20px;
+    align-items: baseline;
+    display: flex;
+}
+
+
+#searchMovie{
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+    position: absolute;
+
+}
+
+#movieResults {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
+
+ #about-Movie {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ #welcome{
+   color: #ff4500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carrier .container .item .content .buttons{
+    display: grid;
+    height: 40px;
+    gap: 5px;
+    margin-top: 19px;
+}
+
+.carrier .container .item .content button{
+    border: none;
+    background-color: #fff;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+
+.arrows button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: bisque;
+    color: aqua;
+    font-weight: bold; 
+}
+
+.arrows button:hover{
+    background-color: aliceblue;
+    color: lightslategray;
+}
+
+.carrier .container .item:nth-child(1){
+    z-index: 1;
+}
+.carrier .container .item:nth-child(1) #author,
+.carrier .container .item:nth-child(1) #title,
+.carrier .container .item:nth-child(1) #TopicOfDiscussion,
+.carrier .container .item:nth-child(1) .buttons{
+    transform: translateY(50px);
+    filter: blur(10px);
+    opacity: 0;
+    animation: showCont 0.5s 1s linear 1 forwards;
+}
+
+@keyframes showContent{
+    to{
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
+}
+
+
+
